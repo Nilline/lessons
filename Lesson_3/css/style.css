@@ -1,0 +1,83 @@
+/* -----Normalize------------------------------------------------------------------------------------- */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* -----Main-CSS------------------------------------------------------------------------------------- */
+
+h1 {
+	color: blueviolet;
+}
+.page__backround {
+	max-width: 1000px;
+}
+.page__backround .main-content__image {
+	max-width: 100%;
+}
+.main-content > .main-content__text-block > .main-content__block > .main-content__text_orange {
+	color: orange;
+}
+.main-content__text-block .main-content__block_one {
+	color: fuchsia;
+}
+.main-content__text-block .main-content__block_one span {
+	color: rgb(14, 97, 221);
+}
+.main-content__block h2.main-content__title_chartreuse {
+	color: chartreuse;
+}
+p.main-content__text_cornflowerblu {
+	color: cornflowerblue;
+}
+.main-content__title {
+	color: brown;
+}
+h2.main-content__title_cadetblue {
+	color: cadetblue;
+}
+.main-content__link,
+.main-content__button {
+	color: rgb(255, 0, 0);
+}
+ol > li {
+	color: darkgreen;
+}
+ol > .main-content__item {
+	color: chocolate;
+}
+strong mark {
+	color: forestgreen;
+}
+.main-content__title_first ~ p {
+	color: rgb(0, 233, 117);
+}
+.main-content__title_first + p {
+	color: rgb(160, 174, 40);
+}
+
