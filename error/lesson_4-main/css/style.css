@@ -1,53 +1,4 @@
 @import "null.css";
-
-/* Larsseit =========================================================================================================*/
-@font-face {
-   font-family: "Larsseit";
-   src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
-   font-display: swap;
-   font-weight: 400;
-   font-style: normal;
-}
-@font-face {
-   font-family: "Larsseit";
-   src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
-   font-display: swap;
-   font-weight: 500;
-   font-style: normal;
-}
-@font-face {
-   font-family: "Larsseit";
-   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
-   font-display: swap;
-   font-weight: 700;
-   font-style: normal;
-}
-/* ==================================================================================================================== */
-
-/* Lato =============================================================================================================== */
-@font-face {
-   font-family: "Lato";
-   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
-   font-display: swap;
-   font-weight: 400;
-   font-style: normal;
-}
-@font-face {
-   font-family: "Lato";
-   src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
-   font-display: swap;
-   font-weight: 700;
-   font-style: normal;
-}
-@font-face {
-   font-family: "Lato";
-   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
-   font-display: swap;
-   font-weight: 900;
-   font-style: normal;
-}
-/* ==================================================================================================================== */
-
 /* Roboto ============================================================================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 /* ==================================================================================================================== */
@@ -70,83 +21,161 @@
 
 /* Federo ============================================================================================================= */
 @import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+/* ==================================================================================================================== */
+/* Larsseit =========================================================================================================*/
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
 /* ==================================================================================================================== */
 
+/* Lato =============================================================================================================== */
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* ==================================================================================================================== */
+
+
+
 #thrivetalk {
-   font-family: "Larsseit";
-   color: #ece89d;
+	font-family: "Larsseit";
+	color: #ece89d;
 }
+
 #onlinecourse {
-   font-family: "Lato";
-   color: #5e5373;
+	font-family: "Lato";
+	color: #5e5373;
 }
+
 #roboto {
-   font-family: "Roboto";
-   color:  #18b5a4;
+	font-family: "Roboto";
+	color: #18b5a4;
 }
+
 .bold {
-   font-weight: 700;
+	font-weight: 700;
 }
+
 .extra-bold {
-   font-weight: 800;
+	font-weight: 800;
 }
+
 .regular {
-   font-weight: 400;
+	font-weight: 400;
 }
+
 .medium {
-   font-weight: 500;
+	font-weight: 500;
 }
+
 .black {
-   font-weight: 900;
+	font-weight: 900;
 }
+
 h1 {
-   font-family: "Roboto";
+	font-family: "Roboto";
 }
+
 a {
-   color: blue;
+	color: blue;
 }
+
 a {
-   color: darkblue;
+	color: darkblue;
 }
+
 .krona-one {
-   font-family: 'Krona One', sans-serif;
+	font-family: 'Krona One', sans-serif;
 }
+
 .krona-one span {
-   color: #18b5a4;
+	color: #18b5a4;
 }
+
 .syne {
-   font-family: 'Syne', sans-serif;
+	font-family: 'Syne', sans-serif;
 }
+
 .italiana {
-   font-family: 'Italiana', serif;
+	font-family: 'Italiana', serif;
 }
+
 .space-grotesk {
-   font-family: 'Space Grotesk', sans-serif;;
+	font-family: 'Space Grotesk', sans-serif;
+	;
 }
+
 .federo {
-   font-family: 'Federo', sans-serif;
+	font-family: 'Federo', sans-serif;
 }
+
 a.home-work {
-   color: green;
+	color: green;
 }
+
 .home-work.article {
-   color: red;
+	color: red;
 }
+
 .italiana p,
 .federo p {
-   color: darkred;
+	color: darkred;
 }
+
 .footer .home-work {
-   color: violet;
-}
-.cyan ~ p {
-   color: cyan;
-}
-.syne > p {
-   color: greenyellow;
-}
-h1.black + p {
-   color: red;
+	color: violet;
 }
 
+.cyan~p {
+	color: cyan;
+}
 
+.syne>p {
+	color: greenyellow;
+}
+
+h1.black+p {
+	color: red;
+}
